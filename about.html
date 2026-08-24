@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BIC 회사소개 — 공간과 기술을 연결하다.">
+  <title>회사소개 — BIC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="subpage">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="BIC 홈"><img src="assets/bic-logo.svg" alt="BIC"></a>
+    <button class="menu-button" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about" aria-current="page">회사소개</a>
+      <a href="business.html#business">사업분야</a>
+      <a href="portfolio.html">포트폴리오</a>
+      <a href="contact.html">문의</a>
+      <button class="lang" type="button" aria-label="언어 선택">KR <span>/ EN</span></button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="about-detail section" id="about">
+      <div class="section-index">01</div>
+      <div class="about-heading reveal">
+        <p class="kicker">ABOUT BIC</p>
+        <h1>공간과 기술을 연결하다.</h1>
+        <p>BIC는 공간 기획부터 제작·시공, 디지털 설비 구축, 현장 운영까지 하나의 흐름으로 수행하는 현장 전문 기업입니다.</p>
+      </div>
+      <div class="about-tabs reveal" role="tablist" aria-label="회사소개 메뉴">
+        <button class="about-tab active" id="tab-overview" type="button" role="tab" aria-selected="true" aria-controls="panel-overview" data-about-tab="overview"><span>01</span><strong>회사개요</strong><small>OVERVIEW</small></button>
+        <button class="about-tab" id="tab-message" type="button" role="tab" aria-selected="false" aria-controls="panel-message" data-about-tab="message"><span>02</span><strong>회장 인사말</strong><small>MESSAGE</small></button>
+        <button class="about-tab" id="tab-organization" type="button" role="tab" aria-selected="false" aria-controls="panel-organization" data-about-tab="organization"><span>03</span><strong>조직도</strong><small>ORGANIZATION</small></button>
+      </div>
+      <div class="about-panels">
+        <article class="about-panel active" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" data-about-panel="overview">
+          <div class="overview-layout">
+            <div><p class="kicker">COMPANY OVERVIEW</p><h3>현장을 이해하고,<br>끝까지 책임집니다.</h3><p class="overview-description">주식회사 비아이씨는 LED·DOOH 시설물 설치 및 시공, 디지털 배너 설치·렌탈, 실내 건축 인테리어, 라이브 행사 운영을 수행합니다. 공간·기술·운영을 연결해 고객의 아이디어가 실제 현장에서 안정적으로 구현되도록 합니다.</p></div>
+            <figure class="overview-image"><img src="assets/led-portfolio/project-led-01.webp" alt="BIC LED DOOH 디지털 미디어 구축 현장"></figure>
+          </div>
+          <dl class="overview-facts"><div><dt>회사명</dt><dd>주식회사 비아이씨</dd></div><div><dt>설립일</dt><dd>2026. 07. 21</dd></div><div><dt>사업자등록번호</dt><dd>103-86-03839</dd></div><div><dt>소재지</dt><dd>경기도 안성시 공도읍 정봉길 101-1, 2층 201호</dd></div></dl>
+        </article>
+        <article class="about-panel message-panel" id="panel-message" role="tabpanel" aria-labelledby="tab-message" data-about-panel="message" hidden>
+          <figure class="chairman-visual"><img src="assets/ceo-yoo-jeong-woo-hq.webp" alt="유정우 회장"></figure>
+          <div class="chairman-copy">
+            <p class="kicker">CHAIRMAN'S MESSAGE</p><h2>공간과 기술을 연결해<br>새로운 가치를 만들겠습니다.</h2>
+            <div class="chairman-text"><p>주식회사 비아이씨는 공간을 이해하는 시선과 현장을 완성하는 기술력을 바탕으로 고객의 아이디어를 현실로 만들어갑니다.</p><p>LED·DOOH 시설물, 실내 건축 인테리어, 라이브 행사 운영까지 서로 다른 전문 영역을 하나의 흐름으로 연결하고, 기획부터 시공과 운영에 이르는 모든 과정에서 책임 있는 결과를 제공하겠습니다.</p><p>변화하는 환경에 유연하게 대응하면서도 기본과 품질을 지키는 기업, 고객과 파트너가 오래 신뢰할 수 있는 기업으로 성장하겠습니다.</p></div>
+            <div class="chairman-sign"><span>주식회사 비아이씨 회장</span><strong>유정우</strong></div>
+          </div>
+        </article>
+        <article class="about-panel" id="panel-organization" role="tabpanel" aria-labelledby="tab-organization" data-about-panel="organization" hidden>
+          <div class="organization-heading"><span>ORGANIZATION</span><h3>전문성과 실행력을 연결하는<br>BIC의 조직 구조입니다.</h3></div>
+          <div class="org-chart" aria-label="BIC 조직도">
+            <div class="org-level org-chairman"><small>CHAIRMAN</small><strong>회장</strong><span>유정우</span></div>
+            <div class="org-connector" aria-hidden="true"></div>
+            <div class="org-level org-ceo"><small>CEO · AV & DIGITAL DISPLAY SOLUTIONS</small><strong>대표이사</strong></div>
+            <div class="org-branch" aria-hidden="true"></div>
+            <div class="org-teams">
+              <div class="org-level"><small>OPERATION TEAM</small><strong>운영팀</strong><span>Operation</span></div>
+              <div class="org-level"><small>CONSTRUCTION TEAM</small><strong>시공팀</strong><span>Construction</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/bic-logo.svg" alt="BIC">
+      <span>© BIC. ALL RIGHTS RESERVED.</span>
+    </div>
+    <div class="footer-info"><p>주식회사 비아이씨</p><p>사업자등록번호 103-86-03839</p><p>경기도 안성시 공도읍 정봉길 101-1, 2층</p><p><a href="mailto:bestincons@bic-corp.co.kr">bestincons@bic-corp.co.kr</a></p></div>
+  </footer>
+  <script src="script.js?v=20260824-en1"></script>
+</body>
+</html>
