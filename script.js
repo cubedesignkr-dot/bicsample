@@ -263,6 +263,7 @@ const configureLanguage = () => {
   });
   if (!isEnglish) return;
   document.querySelectorAll('a[href]').forEach((link) => {
+    if (link.classList.contains('brand')) return;
     const href = link.getAttribute('href');
     if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || /^(https?:)?\/\//.test(href)) return;
     const [pathAndQuery, hash = ''] = href.split('#');
