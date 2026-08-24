@@ -246,6 +246,11 @@ const localizePage = () => {
 };
 
 const configureLanguage = () => {
+  const brand = document.querySelector('.brand');
+  if (brand) {
+    const homePath = location.protocol === 'file:' ? 'index.html' : '/';
+    brand.setAttribute('href', `${homePath}${isEnglish ? '?lang=en' : ''}`);
+  }
   document.querySelectorAll('.lang').forEach((button) => {
     button.innerHTML = isEnglish ? '<span>KR /</span> EN' : 'KR <span>/ EN</span>';
     button.setAttribute('aria-label', isEnglish ? '한국어 페이지로 전환' : 'Switch to English');
