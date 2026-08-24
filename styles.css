@@ -374,8 +374,10 @@ footer img { width: 85px; filter: invert(1); }
   .menu-button span { width: 22px; height: 1px; background: currentColor; transition: .25s; }
   .menu-button.open span:first-child { transform: translateY(4px) rotate(45deg); }
   .menu-button.open span:last-child { transform: translateY(-4px) rotate(-45deg); }
-  .nav { position: fixed; inset: 0; display: none; flex-direction: column; justify-content: center; align-items: flex-start; padding: 20vw; background: #1d201c; color: #fff; font-size: 28px; }
-  .nav.open { display: flex; } .lang { font-size: 12px; margin-top: 20px; }
+  .nav { position: fixed; inset: 0; z-index: 1; display: none; min-height: 100dvh; overflow-y: auto; flex-direction: column; justify-content: center; align-items: flex-start; gap: 22px; padding: 88px 20vw 48px; background: #1d201c; color: #fff; font-size: 28px; }
+  .nav.open { display: flex; }
+  .nav.open > a { display: block; flex: 0 0 auto; color: inherit; opacity: 1; visibility: visible; }
+  .lang { font-size: 12px; margin-top: 20px; }
   .hero { min-height: 760px; padding: 140px 24px 70px; align-items: center; }
   .hero h1 { font-size: clamp(45px, 14vw, 70px); }
   .hero-description br { display: none; }
