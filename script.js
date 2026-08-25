@@ -74,8 +74,38 @@ const english = {
   '행사 목적 정의': 'Define Objectives', '프로그램·공간 기획': 'Program & Space Planning', '시스템 설계': 'System Design', '현장 제작·설치': 'On-site Production & Installation', '리허설': 'Rehearsal', '본행사 운영': 'Live Operation',
   '브랜드 메시지, 관객, 행사 형식과 핵심 목표를 정리합니다.': 'Clarify the brand message, audience, event format, and primary objectives.', '세션 구성, 무대와 관객 동선, 운영 시나리오를 설계합니다.': 'Design the program, stage and audience circulation, and operating scenario.', '음향, LED, 촬영, 송출 장비와 인력 구성을 확정합니다.': 'Finalize sound, LED, camera, broadcast equipment, and staffing.', '공간과 무대, 장비를 설치하고 운영 환경을 구축합니다.': 'Install the space, stage, and equipment and build the operating environment.', '큐시트에 따라 전체 흐름과 기술 시스템을 사전 점검합니다.': 'Run through the full show flow and technical systems against the cue sheet.', '진행, 기술, 안전 상황을 실시간으로 관리해 행사를 완성합니다.': 'Manage show flow, technology, and safety in real time.',
   '포트폴리오': 'Portfolio', 'BIC가 공간과 기술, 운영을 연결해 완성한 프로젝트입니다.': 'Projects completed by BIC by connecting space, technology, and operations.',
-  '전체': 'All', '무인카페': 'Unmanned Café', '앙호두 인천 간석점': 'Anghodu Incheon Ganseok', '건물관리 회사 오피스': 'Property Management Office',
+  '전체': 'All', 'LED DOOH': 'LED DOOH', '실내건축 인테리어': 'Interior Architecture', '무인카페': 'Unmanned Café', '건물관리 회사 오피스': 'Property Management Office', '등갈비에 꼬치다': 'Deunggalbi-e Kkochida', '덮밥장사장': 'Deopbap Jangsajang', '국밥도': 'Gukbapdo', '팝업 행사 설치': 'Pop-up Event Installation', '프랜차이즈': 'Franchise', '팝업 행사': 'Pop-up Event',
   '외교부 아세안회의 국제 컨퍼런스': 'Ministry of Foreign Affairs ASEAN Conference', '한국 파스퇴르 연구소 세미나': 'Institut Pasteur Korea Seminar', '한국언론진흥재단 AI 빅데이터 컨퍼런스': 'Korea Press Foundation AI & Big Data Conference',
+  '디즈니 동시통역 라이브 행사': 'Disney Simultaneous Interpretation Live Event', '외교부 제12차 FEALAC 사이버사무국 워크숍': 'MOFA 12th FEALAC Cyber Secretariat Workshop', '외교부 차세대 청년 네트워크': 'MOFA Next Generation Youth Network', '외교부 한·아세안 과학기술위원회 회의': 'MOFA Korea–ASEAN Science and Technology Committee Meeting', '포시즌스 호텔 서울': 'Four Seasons Hotel Seoul', '외교부 청사': 'Ministry of Foreign Affairs', 'JW 메리어트 호텔 서울': 'JW Marriott Hotel Seoul', '서울 행사장': 'Seoul Event Venue',
+  '프로젝트 개요': 'Project Overview',
+  '담당 범위 · 매장 공간 계획, 주방·홀 동선 구성, 내장 마감 및 사인 설치': 'Scope · Store planning, kitchen and dining circulation, interior finishes, and signage installation',
+  '주요 마감 · 우드, 금속, 타일, 도장, 간접조명': 'Key finishes · Wood, metal, tile, paint, and indirect lighting',
+  '브랜드의 활기찬 분위기와 편안한 식사 환경이 조화를 이루도록 공간을 완성했습니다.': 'The space balances the brand’s lively character with a comfortable dining environment.',
+  '담당 범위 · 홀 레이아웃, 주문·배식 동선, 주방 설비 및 브랜드 사인 시공': 'Scope · Dining layout, ordering and serving flow, kitchen equipment, and brand signage',
+  '주요 마감 · 타일, 스테인리스, 우드 패널, 도장, 조명': 'Key finishes · Tile, stainless steel, wood panels, paint, and lighting',
+  '빠르고 효율적인 운영 동선과 친근한 브랜드 이미지를 함께 담은 매장으로 구성했습니다.': 'The store combines an efficient service flow with a friendly and approachable brand identity.',
+  '담당 범위 · 매장 설계, 홀·주방 구획, 마감 시공 및 가구·조명 설치': 'Scope · Store design, dining and kitchen zoning, finish work, furniture, and lighting installation',
+  '주요 마감 · 우드, 석재 패턴 타일, 금속, 도장, 유리': 'Key finishes · Wood, stone-pattern tile, metal, paint, and glass',
+  '전통적인 따뜻함을 현대적으로 재해석해 깔끔하고 신뢰감 있는 외식 공간을 완성했습니다.': 'Traditional warmth was reinterpreted in a contemporary way to create a clean and welcoming dining space.',
+  '담당 범위 · 행사 공간 구성, 전시 구조물 제작, 집기·그래픽·조명 설치': 'Scope · Event space planning, exhibit structure fabrication, fixtures, graphics, and lighting installation',
+  '주요 요소 · 모듈형 구조물, 브랜드 그래픽, 진열 집기, 포인트 조명': 'Key elements · Modular structures, brand graphics, display fixtures, and accent lighting',
+  '짧은 설치 일정 안에서도 브랜드 메시지와 방문객 동선이 선명하게 전달되도록 공간을 구현했습니다.': 'The space was delivered on a tight installation schedule while clearly communicating the brand message and visitor journey.',
+  '한·영 동시통역 시스템 구성 및 통역 부스 운영': 'Korean–English simultaneous interpretation system and booth operation',
+  '다중 카메라 촬영과 발표자 화면 실시간 중계': 'Multi-camera production and live presenter feed',
+  '디지털 오디오 믹싱 및 통역 음원 레코딩': 'Digital audio mixing and interpretation audio recording',
+  '행사 전 리허설과 현장 기술 운영': 'Pre-event rehearsal and on-site technical operation',
+  '국제회의장 전체 음향 및 영상 시스템': 'Complete audio and video system for the international conference venue',
+  '대표단별 회의용 마이크와 모니터 설치': 'Conference microphones and monitors for each delegation',
+  '발표 자료와 현장 화면 동시 송출': 'Simultaneous presentation and live venue screen output',
+  '회의 진행을 위한 기술 오퍼레이팅 및 백업 시스템': 'Technical operation and backup systems for reliable conference delivery',
+  '행사장 무대와 객석 레이아웃 구성': 'Stage and audience seating layout',
+  '대형 모니터와 프레젠테이션 송출 시스템 설치': 'Large-format display and presentation system installation',
+  '전체 음향 및 유·무선 마이크 운영': 'Full audio system and wired/wireless microphone operation',
+  '행사 진행에 맞춘 현장 기술 지원': 'On-site technical support coordinated with the event program',
+  '국제회의용 음향 및 영상 시스템 구성': 'Audio and video system configuration for the international conference',
+  '다중 카메라 촬영과 원격 회의 화면 송출': 'Multi-camera production and remote conference feed',
+  '참석자용 모니터와 발표 자료 동시 운영': 'Simultaneous attendee monitor and presentation operation',
+  '현장 녹화 및 안정적인 기술 백업 지원': 'On-site recording and reliable technical backup support',
   'Gate.io 2024 Spring VIP Party in Korea': 'Gate.io 2024 Spring VIP Party in Korea', 'BBB Korea 인천공항 캠페인': 'BBB Korea Incheon Airport Campaign', 'Gate.io 2024 Summer VIP Party in Korea': 'Gate.io 2024 Summer VIP Party in Korea', 'LANCOME 압솔뤼 롱제비티 라인 론칭 행사': 'LANCÔME Absolue Longevity Launch Event', 'LANCOME 압솔뤼 롱제비티 라인 런칭 행사': 'LANCÔME Absolue Longevity Launch Event', '주한외교단 K-Local Pavilion 지자체 홍보': 'K-Local Pavilion for the Diplomatic Corps in Korea',
   '공간과 기술이 필요한 순간, 함께 시작하겠습니다.': 'When Space Meets Technology, Let Us Begin Together.', '프로젝트의 분야와 규모를 알려주시면 담당자가 내용을 확인한 뒤 안내해 드립니다.': 'Tell us about your project type and scale, and our team will contact you after reviewing the details.',
   '오시는 길': 'Location', '프로젝트 상담 및 문의': 'Project Consultation & Inquiry', '문의 유형': 'Inquiry Type', '실내 건축': 'Interior', '라이브 행사': 'Live Event', '기타 문의': 'Other',
@@ -202,7 +232,7 @@ Object.assign(english, {
   'LANCOME 압솔뤼 롱지비티 라인 런칭 행사': 'Lancôme Absolue Longevity Line Launch'
 });
 
-const t = (value) => english[value] || value;
+const t = (value) => isEnglish ? (english[value] || value) : value;
 
 const localizePage = () => {
   if (!isEnglish) return;
@@ -377,6 +407,12 @@ if (aboutTabs.length) {
 const portfolioTabs = [...document.querySelectorAll('.portfolio-tab')];
 const projectCards = [...document.querySelectorAll('.project-card')];
 
+const portfolioGrid = document.querySelector('.portfolio-grid');
+['07', '06', '05', '04', '08', '01', '03'].forEach((projectNumber) => {
+  const card = portfolioGrid?.querySelector(`[data-interior-project="${projectNumber}"]`);
+  if (card) portfolioGrid.append(card);
+});
+
 portfolioTabs.forEach((tab) => tab.addEventListener('click', () => {
   const filter = tab.dataset.filter;
   portfolioTabs.forEach((item) => {
@@ -388,6 +424,8 @@ portfolioTabs.forEach((tab) => tab.addEventListener('click', () => {
     card.hidden = filter !== 'all' && card.dataset.category !== filter;
   });
 }));
+
+portfolioTabs.find((tab) => tab.classList.contains('active'))?.click();
 
 const portfolioBriefings = {
   '복합문화공간 대형 LED 미디어월': {
@@ -437,6 +475,22 @@ const portfolioBriefings = {
   '주한외교단 K-Local Pavilion 지자체 홍보': {
     title: '주한외교단 K-Local Pavilion 지자체 홍보', date: '1차: 2024. 06. 28 / 2차: 2025. 12. 05', location: '신라호텔 영빈관',
     items: ['스크린 삽입 포토부스 백월 설치', '언론보도용 사진 촬영', '영어 진행 가능 MC 섭외', '지자체 부스 목공제작 및 백월 패널 제작', '특산품 디피 및 구디백 준비']
+  },
+  '디즈니 동시통역 라이브 행사': {
+    title: '디즈니 동시통역 라이브 행사', date: '', location: '서울 행사장',
+    items: ['한·영 동시통역 시스템 구성 및 통역 부스 운영', '다중 카메라 촬영과 발표자 화면 실시간 중계', '디지털 오디오 믹싱 및 통역 음원 레코딩', '행사 전 리허설과 현장 기술 운영']
+  },
+  '외교부 제12차 FEALAC 사이버사무국 워크숍': {
+    title: '외교부 제12차 FEALAC 사이버사무국 워크숍', date: '', location: '포시즌스 호텔 서울',
+    items: ['국제회의장 전체 음향 및 영상 시스템', '대표단별 회의용 마이크와 모니터 설치', '발표 자료와 현장 화면 동시 송출', '회의 진행을 위한 기술 오퍼레이팅 및 백업 시스템']
+  },
+  '외교부 차세대 청년 네트워크': {
+    title: '외교부 차세대 청년 네트워크', date: '', location: '외교부 청사',
+    items: ['행사장 무대와 객석 레이아웃 구성', '대형 모니터와 프레젠테이션 송출 시스템 설치', '전체 음향 및 유·무선 마이크 운영', '행사 진행에 맞춘 현장 기술 지원']
+  },
+  '외교부 한·아세안 과학기술위원회 회의': {
+    title: '외교부 한·아세안 과학기술위원회 회의', date: '', location: 'JW 메리어트 호텔 서울',
+    items: ['국제회의용 음향 및 영상 시스템 구성', '다중 카메라 촬영과 원격 회의 화면 송출', '참석자용 모니터와 발표 자료 동시 운영', '현장 녹화 및 안정적인 기술 백업 지원']
   }
 };
 
@@ -445,11 +499,6 @@ const interiorPortfolioProjects = {
     title: '무인카페', location: '경기 군포시 당동', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
     items: ['담당 범위 · 공간 기획, 3D 디자인, 실내 시공 및 가구·조명 설치', '주요 마감 · 도장, 우드 패턴 마감, 테라조 패턴 바닥, 금속·유리', '곡선형 간접조명과 밝은 색감을 적용해 작은 공간을 편안하고 선명하게 구성했습니다.'],
     stages: { '3d': 4, construction: 4, completed: 4 }
-  },
-  '02': {
-    title: '앙호두 인천 간석점', location: '인천광역시 남동구 간석동', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
-    items: ['담당 범위 · 3D 디자인, 매장 동선 계획, 카운터·주방 시공, 전기·조명 및 사인 설치', '주요 마감 · 도장, 우드 루버, 인조대리석 상판, 타일, 스테인리스', '밝은 뉴트럴 톤과 브랜드 포인트 컬러를 활용해 주문과 제조 동선이 명확한 소형 매장으로 완성했습니다.'],
-    stages: { '3d': 3, construction: 5, completed: 2 }
   },
   '03': {
     title: '성수 크리에이티브 오피스', location: '서울특별시 성동구 성수동', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
@@ -460,6 +509,26 @@ const interiorPortfolioProjects = {
     title: '건물관리 회사 오피스', location: '경기도 평택시 비전동', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
     items: ['담당 범위 · 사무공간 구획, 유리 파티션, 천장·바닥, 제작 가구 및 조명 시공', '주요 마감 · 도장, 타일, 유리, 금속 프레임, 우드 마감', '투명 파티션으로 채광과 개방감을 유지하고, 짙은 우드 제작 가구와 간접조명으로 안정감 있는 업무 공간을 완성했습니다.'],
     stages: { construction: 3, completed: 4 }
+  },
+  '05': {
+    title: '등갈비에 꼬치다', location: '프랜차이즈', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
+    items: ['담당 범위 · 매장 공간 계획, 주방·홀 동선 구성, 내장 마감 및 사인 설치', '주요 마감 · 우드, 금속, 타일, 도장, 간접조명', '브랜드의 활기찬 분위기와 편안한 식사 환경이 조화를 이루도록 공간을 완성했습니다.'],
+    stages: { completed: 7 }
+  },
+  '06': {
+    title: '덮밥장사장', location: '프랜차이즈', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
+    items: ['담당 범위 · 홀 레이아웃, 주문·배식 동선, 주방 설비 및 브랜드 사인 시공', '주요 마감 · 타일, 스테인리스, 우드 패널, 도장, 조명', '빠르고 효율적인 운영 동선과 친근한 브랜드 이미지를 함께 담은 매장으로 구성했습니다.'],
+    stages: { completed: 4 }
+  },
+  '07': {
+    title: '국밥도', location: '프랜차이즈', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
+    items: ['담당 범위 · 매장 설계, 홀·주방 구획, 마감 시공 및 가구·조명 설치', '주요 마감 · 우드, 석재 패턴 타일, 금속, 도장, 유리', '전통적인 따뜻함을 현대적으로 재해석해 깔끔하고 신뢰감 있는 외식 공간을 완성했습니다.'],
+    stages: { completed: 7 }
+  },
+  '08': {
+    title: '팝업 행사 설치', location: '팝업 행사', label: 'INTERIOR PROJECT', heading: '프로젝트 개요',
+    items: ['담당 범위 · 행사 공간 구성, 전시 구조물 제작, 집기·그래픽·조명 설치', '주요 요소 · 모듈형 구조물, 브랜드 그래픽, 진열 집기, 포인트 조명', '짧은 설치 일정 안에서도 브랜드 메시지와 방문객 동선이 선명하게 전달되도록 공간을 구현했습니다.'],
+    stages: { completed: 3 }
   }
 };
 
