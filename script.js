@@ -406,6 +406,12 @@ if (aboutTabs.length) {
 
 const portfolioTabs = [...document.querySelectorAll('.portfolio-tab')];
 const projectCards = [...document.querySelectorAll('.project-card')];
+const portfolioThumbnailIndexes = {
+  '무인카페': 2,
+  '건물관리 회사 오피스': 2,
+  '등갈비에 꼬치다': 1,
+  '디즈니 동시통역 라이브 행사': 2
+};
 
 const portfolioGrid = document.querySelector('.portfolio-grid');
 ['07', '06', '05', '04', '08', '01', '03'].forEach((projectNumber) => {
@@ -445,7 +451,7 @@ const portfolioBriefings = {
     items: ['매장 공간과 제품 동선을 고려한 LED 디스플레이 설계', '모듈 조립과 구조물·배선 일체 시공', '영상 테스트와 색상 보정을 포함한 현장 셋업']
   },
   '외교부 아세안회의 국제 컨퍼런스': {
-    title: '외교부 아세안회의 국제 컨퍼런스', date: '2022. 06. 15 / 07. 01', location: 'JW 메리어트 호텔 살롱3 / 신라호텔 영빈관',
+    title: '외교부 아세안회의 국제 컨퍼런스', date: '2022. 06. 15 / 07. 01', location: '신라호텔 영빈관',
     items: ['컨퍼런스 전체 음향', '모니터 6대, 프롬프터형 거치대', '현장 중계용 카메라', '현장음 및 통역 양방향 실시간 국제회의', '안정적인 백업 시스템', '개개인에게 딜리게이션 마이크 제공']
   },
   '한국 파스퇴르 연구소 세미나': {
@@ -657,7 +663,7 @@ projectSliders.forEach((slider) => {
   const firstImage = track.querySelector('img');
   const isLiveSlider = firstImage?.getAttribute('src')?.includes('assets/live-slides/project-');
   const projectMatch = isLiveSlider ? firstImage?.getAttribute('src')?.match(/project-(\d{2})-/) : null;
-  const projectImageCounts = { '01': 9, '02': 7, '03': 7, '04': 7, '05': 4, '06': 8, '07': 7, '08': 5 };
+  const projectImageCounts = { '01': 7, '02': 7, '03': 7, '04': 7, '05': 4, '06': 8, '07': 7, '08': 5 };
   const projectNumber = projectMatch?.[1];
   const imageCount = projectImageCounts[projectNumber];
 
@@ -696,24 +702,25 @@ projectSliders.forEach((slider) => {
     lightbox.querySelector('.lightbox-scroll').scrollTop = 0;
     lightbox.querySelector('.lightbox-close').focus();
   }));
-  slider.setSlides = (nextSlides) => {
+  slider.setSlides = (nextSlides, initialIndex = 0) => {
     slides = nextSlides;
     track.replaceChildren(...slides);
-    showSlide(0);
+    showSlide(initialIndex);
   };
   slider.addEventListener('touchstart', (event) => { touchStartX = event.touches[0].clientX; }, { passive: true });
   slider.addEventListener('touchend', (event) => {
     const distance = event.changedTouches[0].clientX - touchStartX;
     if (Math.abs(distance) > 45) showSlide(current + (distance < 0 ? 1 : -1));
   }, { passive: true });
-  showSlide(0);
+  const projectTitle = slider.closest('.project-card')?.querySelector('h2')?.textContent.trim();
+  showSlide(portfolioThumbnailIndexes[projectTitle] || 0);
 });
 
 document.querySelectorAll('[data-interior-project]').forEach((card) => {
   const slider = card.querySelector('.project-slider');
   const summaryLabel = card.querySelector('small');
   const completedSlides = card.interiorStageSlides.completed || Object.values(card.interiorStageSlides)[0];
-  slider.setSlides(completedSlides);
+  slider.setSlides(completedSlides, portfolioThumbnailIndexes[card.portfolioBriefing.title] || 0);
   summaryLabel.textContent = 'INTERIOR PROJECT';
 });
 
